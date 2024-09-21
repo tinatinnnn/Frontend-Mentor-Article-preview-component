@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -7,10 +7,16 @@
 body{
     background-color:#eaf1f7;
     width: 100%;
-    
-   
 }
-
+li{
+    list-style: none;
+    color: white;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
 .wrapper{
     display: flex;
     justify-content: center;
@@ -107,4 +113,49 @@ h3{
   height: 20px;
   
   
+}
+/************share***************/
+section{
+    display: flex;
+    /*justify-content: center;*/
+    background-color: #48556A;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -50px;
+    border-bottom-right-radius: 10px;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    
+    
+
+    
+}
+.button ul{
+   display: flex;
+   padding-left: 32px;
+   align-items: center;
+}
+.share{
+    font-size: 13px;
+    letter-spacing: 5px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    
+}
+.cont-btn li{
+    padding-left: 15px;
+    align-items: center;
+}
+.share-btn-flex{
+    margin-left: 25px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  background-color:#ecf2f9 ;
+  border-radius: 30px;
+  padding: 5px;
 }
